@@ -22,7 +22,7 @@ pub mod simple_storage {
 #[account]
 pub struct <DBNAME>AccountState {
   pub is_initialized: bool,
-  </>1,ATTRIBUTES_WITH_TYPE_AND_ACCESS_MODIFIER
+  </>1,ATTRIBUTES_WITH_TYPE_IN_STRUCT
 }
 
 impl IsInitialized for <DBNAME>AccountState {
